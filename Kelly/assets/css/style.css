@@ -22,6 +22,11 @@ body {
   height: 100vh;
   background: #000;
 }
+/* #bg {
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+} */
 
 #particles-js2 {
   width: 100%;
@@ -32,6 +37,12 @@ body {
 #particles-js3 {
   width: 100%;
   height: 230vh;
+  background: #000;
+}
+
+#particles-js4 {
+  width: 100%;
+  height: 300vh;
   background: #000;
 }
 
@@ -56,7 +67,7 @@ h6 {
 
 #main {
   margin-top: 50px;
-  color: #ffffee;
+  color: #000000;
 }
 
 #main h3 {
@@ -468,7 +479,7 @@ h6 {
 
 #homeArea {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   position: absolute;
   top: 100px;
   left: 0;
@@ -478,8 +489,8 @@ h6 {
 
 #homeArea2 {
   width: 100%;
-  height: 100%;
-  position: absolute;
+  /* height: 100%; */
+  position: relative;
   top: 40px;
   left: 0;
   z-index:-0;
@@ -488,8 +499,18 @@ h6 {
 
 #homeArea3 {
   width: 100%;
-  height: 100%;
-  position: absolute;
+  /* height: 100%; */
+  position: relative;
+  top: 40px;
+  left: 0;
+  z-index:-0;
+  pointer-events: none;
+}
+
+#homeArea4 {
+  width: 100%;
+  /* height: 100%; */
+  position: relative;
   top: 40px;
   left: 0;
   z-index:-0;
@@ -1419,6 +1440,9 @@ section {
     transform: rotate(360deg);
   }
 }
+html,body{
+  height: 100%
+}
 
 /*--------------------------------------------------------------
 # Footer
@@ -1428,6 +1452,11 @@ section {
   padding: 30px 0;
   color: #222222;
   font-size: 14px;
+  /* position: absolute;
+  bottom: 0; */
+  position: relative;
+  bottom: 0;
+  width: 100%;
   text-align: center;
 }
 

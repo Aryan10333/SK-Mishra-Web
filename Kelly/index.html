@@ -47,6 +47,20 @@
   color: black;
 
 }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  margin-left: 8%;
+}
+
+.card:hover {
+  box-shadow: 0 18px 16px 0 rgba(0,0,0,0.2);
+}
+
+.index_image_container {
+  padding: 2px 16px;
+}
   </style>
 
   <!-- =======================================================
@@ -73,11 +87,12 @@
           <li><a class="navLinks" class="active" href="index.html">Home</a></li>
           <li><a  class="navLinks" href="about.html">About</a></li>
           <li><a  class="navLinks" href="resume.html">Resume</a></li>
+          <li><a class="navLinks"  href="teaching.html">Teaching</a></li>
+          <li><a  class="navLinks" href="publications.html">Publications</a></li>
           <li><a class="navLinks"  href="http://dcecm.iitd.ac.in/">COE</a></li>
           <li><a  class="navLinks" href="http://cas.iitd.ac.in/">CAS</a></li>
           <li><a class="navLinks"  href="https://home.iitd.ac.in/">IIT Delhi</a></li>
-          <li><a class="navLinks"  href="teaching.html">Teaching</a></li>
-          <li><a  class="navLinks" href="publications.html">Publications</a></li>
+        
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -98,16 +113,53 @@
     <!-- End Hero -->
   </div>
 
-  <div id="homeArea">
+  
+
+  <div id="homeArea" data-aos="zoom-in" data-aos-delay="100">
     <section id="hero" class="d-flex align-items-center">
-      <div id="home-section" class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
-        <h1>Dr. Saroj Kanta Mishra</h1>
-        <h2>YES Foundation Chair for Climate Modeling</h2>
-        <h2>Principal Investigator, DST Centre of Excellence in Climate Modeling</h2>
-        <h2>Associate Professor, Centre for Atmospheric Sciences</h2>
-        <h2><b>Indian Institute of Technology Delhi, India .</b></h2>
-        <!-- <a href="about.html" class="btn-about">About Me</a> -->
+      <div class="container">
+
+        <div class="row align-items-center">
+
+          <!-- <div class="card"> -->
+            <img src="assets/img/SK Sir Image.jpeg" class="center-block" alt="Avatar" style="width:180px;border-radius: 25px;
+            ">
+          <!-- </div> -->
+
+        </div>
+
+        <!-- <div>
+          <p>New nav</p>
+        </div> -->
+
+        <div class="w-100 row align-items-center" >
+          <!-- <div id="home-section" class="w-100" data-aos="zoom-in" data-aos-delay="100"> -->
+            <div class="w-100" style="margin: auto;">
+              <h1>Dr. Saroj Kanta Mishra</h1>
+            </div>
+            <div class="w-100" style="margin: auto;">
+              <h2 >YES Foundation Chair for Climate Modeling</h2>
+            </div>
+            <div class="w-100 align-items-center">
+              <h2 >Associate Professor, Centre for Atmospheric Sciences</h2>
+            </div>
+            <div class="w-100 align-items-center">
+              <h2 ><b>Indian Institute of Technology Delhi, India .</b></h2>
+            </div>
+            <!-- <div class="w-100 align-items-center">
+              <h1 >Dr. Saroj Kanta Mishra</h1>
+            </div> -->
+            <!-- <h2 >YES Foundation Chair for Climate Modeling</h2>
+            <h2 >Principal Investigator, DST Centre of Excellence in Climate Modeling</h2>
+            <h2 >Associate Professor, Centre for Atmospheric Sciences</h2>
+            <h2 ><b>Indian Institute of Technology Delhi, India .</b></h2> -->
+            <!-- <a href="about.html" class="btn-about">About Me</a> -->
+          <!-- </div> -->
+        </div>
       </div>
+
+
+      
     </section>
   </div>
 
